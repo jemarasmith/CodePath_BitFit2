@@ -1,4 +1,4 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 import android.content.Context
 import androidx.room.Database

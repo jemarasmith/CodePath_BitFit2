@@ -1,4 +1,4 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.codepath_bitfit.R
+import com.codepath.bitfit2.R
+
 
 class NutritionActivity : AppCompatActivity() {
     private lateinit var nutritionRV : RecyclerView

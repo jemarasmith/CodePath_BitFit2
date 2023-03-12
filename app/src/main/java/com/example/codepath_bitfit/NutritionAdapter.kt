@@ -1,4 +1,4 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,7 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.codepath_bitfit.R
+import com.codepath.bitfit2.R
+
 
 class NutritionAdapter(private val context: Context, private val nutrition:List<Nutrition>) : RecyclerView.Adapter<NutritionAdapter.ViewHolder>(){
 

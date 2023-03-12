@@ -1,4 +1,4 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

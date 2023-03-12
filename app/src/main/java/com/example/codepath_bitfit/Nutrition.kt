@@ -1,4 +1,4 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 data class Nutrition(
     val nutritionName:String?,

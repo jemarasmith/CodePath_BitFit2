@@ -1,7 +1,6 @@
-package com.example.codepath_bitfit
+package com.example.codepath_bitfit2
 
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
@@ -13,4 +12,7 @@ interface NutritionDao {
 
     @Insert
     fun insert(nutrition: NutritionEntity)
+
+    @Query("DELETE FROM nutrition_table")
+    fun deleteAll()
 }
